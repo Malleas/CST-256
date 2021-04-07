@@ -42,3 +42,9 @@ Route::post('/dologin', 'LoginController@index');
 Route::get('/login2', function (){
     return view('login2');
 });
+
+Route::get('/login3', function (){
+    return view('login3');
+});
+
+Route::post('/dologin3', 'Login3Controller@index');
